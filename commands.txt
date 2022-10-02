@@ -1,18 +1,4 @@
 {
-  "extends": [
-    /* bundled preset */
-    "html-validate:recommended",
-
-    /* npm package */
-    "my-npm-package",
-
-    /* plugin with custom preset */
-    "my-plugin:custom",
-
-    /* local file */
-    "./file"
-	"rules": {
-    "some-rules": "severity",
-    "other-rule": ["severity", { "option": true }]
-  ]
+  "extends": ["html-validate:recommended" "html5" "/*.html"]
+  
 }
