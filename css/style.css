@@ -1,0 +1,8 @@
+body {
+    background-color: bisque;
+}
+.box-lyrics {
+    width: 100%;
+    line-height: 1;
+    padding: 10px;
+}
